@@ -43,7 +43,7 @@ function createConfetti() {
   function createParticle() {
     // Create photo element
     const photo = document.createElement('img');
-    photo.src = 'attached_assets/' + images[Math.floor(Math.random() * images.length)];
+    photo.src = 'assets/' + images[Math.floor(Math.random() * images.length)];
     photo.style.position = 'fixed';
     photo.style.width = '50px';
     photo.style.height = '50px';
